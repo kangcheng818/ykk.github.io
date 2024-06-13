@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ykc的个人网页</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding: 1rem 0;
+            text-align: center;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        section {
+            padding: 2rem 0;
+        }
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1rem 0;
+            margin-top: 1rem;
+        }
+        .contact-info {
+            list-style: none;
+            padding: 0;
+        }
+        .contact-info li {
+            padding: 0.5rem 0;
+        }
+        .skills, .projects, .education, .experience {
+            background: #fff;
+            padding: 1rem;
+            margin: 1rem 0;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        .skills ul, .projects ul, .education ul, .experience ul {
+            list-style: none;
+            padding: 0;
+        }
+        .skills li, .projects li, .education li, .experience li {
+            padding: 0.5rem 0;
+        }
+        .contact-form {
+            background: #fff;
+            padding: 1rem;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            margin: 1rem 0;
+        }
+        .contact-form input, .contact-form textarea {
+            width: 100%;
+            padding: 0.5rem;
+            margin: 0.5rem 0;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        .contact-form button {
+            display: block;
+            width: 100%;
+            padding: 0.7rem;
+            background: #333;
+            color: #fff;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        .contact-form button:hover {
+            background: #555;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>ykc的个人网页</h1>
+    </header>
+    <div class="container">
+        <section id="about">
+            <h2>个人简介</h2>
+            <p>你好，我是ykc，目前是一名学生。我对计算机科学和编程充满热情，正在积极学习和参与各类项目，提升自己的技能和知识。</p>
+        </section>
+        <section id="contact">
+            <h2>联系方式</h2>
+            <ul class="contact-info">
+                <li><strong>电子邮件：</strong> ykk@163.com</li>
+                <li><strong>电话号码：</strong> 1234567</li>
+            </ul>
+        </section>
+        <section id="skills" class="skills">
+            <h2>技能</h2>
+            <ul>
+                <li>编程语言：Python, Java, C++</li>
+                <li>Web开发：HTML, CSS, JavaScript</li>
+                <li>数据库：MySQL, MongoDB</li>
+                <li>工具：Git, Docker</li>
+            </ul>
+        </section>
+        <section id="projects" class="projects">
+            <h2>项目</h2>
+            <ul>
+                <li><strong>项目名称1：</strong> 项目描述1</li>
+                <li><strong>项目名称2：</strong> 项目描述2</li>
+                <li><strong>项目名称3：</strong> 项目描述3</li>
+            </ul>
+        </section>
+        <section id="education" class="education">
+            <h2>教育背景</h2>
+            <ul>
+                <li><strong>学校名称：</strong> 学校描述</li>
+                <li><strong>专业：</strong> 专业描述</li>
+            </ul>
+        </section>
+        <section id="experience" class="experience">
+            <h2>工作经历</h2>
+            <ul>
+                <li><strong>公司名称：</strong> 工作描述</li>
+                <li><strong>职位：</strong> 职位描述</li>
+            </ul>
+        </section>
+        <section id="contact-form" class="contact-form">
+            <h2>联系我</h2>
+            <form action="mailto:ykk@163.com" method="post" enctype="text/plain">
+                <input type="text" name="name" placeholder="你的名字" required>
+                <input type="email" name="email" placeholder="你的电子邮件" required>
+                <textarea name="message" rows="5" placeholder="你的留言" required></textarea>
+                <button type="submit">发送</button>
+            </form>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2024 ykc. 保留所有权利。</p>
+    </footer>
+</body>
+</html>
